@@ -1,0 +1,158 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #333;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #e8491d;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    background-color: #e8491d;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    background-color: #35424a;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e8491d;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #35424a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+    background: #e8491d;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 3px solid #e8491d;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    header nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #ffffff;
+    }
+}
